@@ -11,15 +11,15 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
-        <Stack.Screen name='Home' component={Home} />
+        <Stack.Screen name='Home' component={Home} options={{headerShown:false,}} />
 
         <Stack.Screen name='Course' component={Course} options={{
           headerTitleStyle: {
             fontSize: 20
           },
           headerTitle: 'Courses',
-          headerTitleAlign: 'center'
-
+          headerTitleAlign: 'center',
+          
         }} />
         <Stack.Screen name='Profile' component={User} options={{
           headerTitleStyle: {
