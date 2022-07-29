@@ -26,7 +26,7 @@ export default function App() {
             fontSize: 20,
 
           },
-          headerTitle: 'Your Profile',
+          headerTitle: 'Devloper Profile',
           headerTitleAlign: 'center'
 
         }} />

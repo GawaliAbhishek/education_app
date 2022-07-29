@@ -20,7 +20,7 @@ const Contact = ({navigation}) => {
 
       <Text style={styles.mainHeader}> Level up your knowledge</Text>
 
-      <Text style={styles.desc}> lrem ahhd aikjneioj ajhh akieojn ndaonx idna ijdn aj ijnbdo</Text>
+      <Text style={styles.desc}> For any type of queries feel free to contact with us</Text>
       <View style={styles.inputContainer}>
         <Text style={styles.labels}> Enter your name</Text>
         <TextInput style={styles.inputStyles} placeholder="Your Name" value={name} onChangeText={(item)=> setName(item)} />

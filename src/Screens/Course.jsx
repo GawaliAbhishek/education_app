@@ -1,4 +1,4 @@
-import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity, Linking } from 'react-native'
 import React from 'react';
 import data1 from '../../API/API1.js';
 
@@ -17,7 +17,7 @@ const Course = () => {
              <Text style={styles.desc} >{item.desc}</Text>
 
              <View style={styles.buttonContainer}>
-                  <TouchableOpacity style={styles.buttonStyle}
+                  <TouchableOpacity style={styles.buttonStyle} onPress={()=>Linking.openURL(item.link)}
                   >
                     <Text style={styles.buttonText}>Details</Text>
                   </TouchableOpacity>
