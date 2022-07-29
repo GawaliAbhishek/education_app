@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         aspectRatio: 1,
         display: 'flex',
         alignItems: 'stretch',
-        marginTop: 10,
+        marginTop: 60,
         borderRadius: 20
 
     },
@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: '#344055',
         textTransform: "uppercase",
+        marginTop:30
     },
     paraStyle: {
         textAlign: 'center',

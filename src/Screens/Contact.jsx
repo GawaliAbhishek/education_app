@@ -55,9 +55,10 @@ const Contact = ({navigation}) => {
 }
 const styles = StyleSheet.create({
   mainContainer: {
-    height: '100%',
+    width:'100%',
     paddingHorizontal: 30,
     backgroundColor: '#fff',
+ 
   },
   mainHeader: {
     fontSize: 20,
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
     lineHeight: 25
   },
   inputContainer: {
-    marginTop: 20
+    marginTop: 6
   },
   inputStyles: {
     borderWidth: 1,

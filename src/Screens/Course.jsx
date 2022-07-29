@@ -24,6 +24,9 @@ const Course = () => {
              </View>
          </View>
       </View>
+      // <View>
+      //   <Text> Here </Text>
+      // </View>
     )
   }
 
@@ -62,7 +65,7 @@ const styles=StyleSheet.create({
     mainHeader:{
       fontSize:22,
       color:"#344055",
-      fontWeight:500,
+      fontWeight:'500',
       paddingBottom:15,
       textAlign:'center'
     },
